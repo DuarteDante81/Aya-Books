@@ -32,3 +32,7 @@ function cadastro(){
     var btnAlert = document.getElementById('btn-cadastro')
     alert("Cadastro feito com sucesso!")
 }
+function redefinicao(){
+    var btnAlert = document.getElementById('btn-redefinicao')
+    alert("Email enviado!")
+}
