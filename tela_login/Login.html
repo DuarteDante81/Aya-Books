@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Login</title>
+</head>
+<body>   
+    <div class="container">
+        <div>
+            <h1>Entrar</h1>
+            <div class="input-box">
+                <input type="email" name="email" id="email" placeholder="Endereço de email" required>
+            </div>
+            <div class="input-box">
+                <input type="password" name="senha" id="senha" placeholder="Sua senha" required>
+                <i class='bx bxs-lock-alt' id="btn-senha" onclick="mostrarSenha()"></i>
+            </div>
+            <div class="forgot-password">
+                <a href="Esqueci_senha.html">Esqueceu a senha?</a>
+            </div>
+            <button type="submit" class="btn-primary" id="btn-login" onclick="login()">Entrar</button>
+            <div class="divider">
+                <div></div>
+                <span>ou</span>
+                <div></div>
+        </div>
+            
+        </div><a href="Cadastro.html"><button class="btn-secondary" id="btn-secondary">Criar Conta</button></a>
+
+<script src="script/icon.js"></script>
+</body>
+</html>

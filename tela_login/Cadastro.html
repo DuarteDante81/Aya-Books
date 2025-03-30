@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles/Cadastro.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1>Cadastre-se</h1>
+            <div class="input-box">
+                <input type="text" name="nome" id="nome" placeholder="Nome" required>
+            </div>
+            <div class="input-box">
+                <input type="email" name="email" id="email" placeholder="Endereço de email" required>
+            </div>
+            <div class="input-box">
+                <input type="password" name="senha" id="senha" placeholder="Sua senha" required>
+                <i class='bx bxs-lock-alt' id="btn-senha" onclick="mostrarSenha()"></i>
+            </div>
+            <div class="input-box">
+                <input type="password" name="senha" id="confirma-senha" placeholder="Confirme sua senha" required>
+                <i class='bx bxs-lock-alt' id="btn-confirma-senha" onclick="mostrarSenha2()"></i>
+            </div>
+            <button type="submit" class="btn-cadastro" onclick="cadastro()">Criar conta</button>
+            <div class="clique-aqui">
+                <p>Já é cadastrado? <a href="Login.html">Clique aqui!</a></p>
+            </div>
+        </div>
+
+<script src="script/icon.js"></script>
+</body>
+</html>
