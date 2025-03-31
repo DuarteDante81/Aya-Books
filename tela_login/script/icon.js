@@ -24,10 +24,6 @@ function mostrarSenha2(){
     }
 }
 
-function login(){
-    var btnAlert = document.getElementById('btn-login')
-    alert("Login feito com sucesso!")
-}
 function cadastro(){
     var btnAlert = document.getElementById('btn-cadastro')
     alert("Cadastro feito com sucesso!")
